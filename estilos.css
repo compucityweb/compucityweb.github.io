@@ -110,8 +110,14 @@ nav{
 body{
 	box-sizing: border-box;
     font-family: "Segoe UI", sans-serif;
-	background: #E0E4E5;
+	background: #ffffff;
 	font-family: 'Open Sans', sans-serif;
+	/*background-image: url(https://logosnicas.com/wp-content/uploads/2022/08/compucity.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 50vh;*/
 }
 
 .wrap{	
