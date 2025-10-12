@@ -167,8 +167,8 @@ body{
 
 .products-list .product-item{
 	width: 22%;
-	margin-left: 3%;
-	margin-bottom: 25px;
+	margin-left: 3%;/*Distancia de anchura entre productos*/
+	margin-bottom: 5%;/*Disctancia de altura entre productos*/
 	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
 
 	display: flex;
@@ -241,7 +241,7 @@ body{
 @media screen and (max-width: 600px){
 
 	.products-list .product-item{
-		width: 47.5%;
+		width: 100%;
 	}
 
 	.products-list .product-item:nth-child(3n+1){
