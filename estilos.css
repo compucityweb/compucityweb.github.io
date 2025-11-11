@@ -65,7 +65,7 @@ p{
 }
 
 
-@media (max-width: 1100px){
+@media (max-width: 5000px){
     .menu-btn{
         display: block;
     }
@@ -86,7 +86,7 @@ p{
     }
 
     .category_list.active {
-        clip-path: circle(1000px at 90% -10%);
+        clip-path: circle(100%);
         pointer-events: all;
     }
 
