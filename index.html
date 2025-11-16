@@ -1,39 +1,83 @@
-<!-- Catalogo Creado Por ING. Oliver Jimenez Nomviembre 2025 -->
+<!-- Catalogo Creado Por ING. Oliver Jimenez Actualizacion 1.16.11.25-->
 <!DOCTYPE html>
 <html lang="es-ES">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Catalogo Compucity</title>
-
-	<link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CATALOGO COMPUCITY</title>
+    <link rel="stylesheet" href="estilos.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 
 	<script src="jquery-3.2.1.js"></script>
 	<script src="script.js"></script>
 </head>
-<body>
-	<header>
-		<nav>
-			<div class="nav-container">		
-				<img src="https://logosnicas.com/wp-content/uploads/2022/08/compucity.png" height="50" width="50" alt="" >		
-				<a href="" class="logo">Catalogo Compucity</a>					
-				<button class="menu-btn" id="menuBtn">☰</button>			
-				<div class="category_list" id="navLinks">					
-					<a href="#all" class="category_item" category="all">Todo</a>
-					<a href="#Cpu" class="category_item" category="Cpu">Cpu y Componentes</a>
-					<a href="#monitores" class="category_item" category="monitores">Monitores</a>
-					<a href="#laptops" class="category_item" category="laptops">Laptops</a>
-					<a href="#Impresoras" class="category_item" category="Impresoras">Impresoras y Consumibles</a>
-					<a href="#Camaras" class="category_item" category="Camaras">Camaras y Redes</a>
-					<a href="#Protectores" class="category_item" category="Protectores">Protectores de Voltaje</a>
-					<a href="#Accesorios" class="category_item" category="Accesorios">Accesorios</a>
-					<a href="#Electrodomesticos" class="category_item" category="Electrodomesticos">Electrodomesticos</a>
-				</div>
-			</div>			
-		</nav>		
-	</header>
-	<div class="wrap">
+<body>   
+    <header>
+        <nav class="nav">
+			<div class="nav__container">
+				<h1 class="nav__title">Catalogo Compucity</h1>
+				<a href="#menu" class="nav__menu">
+					<img src="./assets/menu.svg" class="nav__icon">
+				</a>
+				<a href="#" class="nav__menu nav__menu--second">
+					<img src="./assets/close.svg" class="nav__icon ">
+				</a>
+				<ul class="dropdown" id="menu">
+					<li class="dropdown__list">
+						<a href="#all" class="dropdown__link" category="all">
+							<span class="dropdown__span">Inicio</span>
+						</a>
+					</li>
+					<li class="dropdown__list">
+						<a href="#" class="dropdown__link">
+							<span class="dropdown__span">Computadoras</span>
+							<img src="./assets/down.svg" class="dropdown__arrow">
+							<input type="checkbox" class="dropdown__check">
+						</a>
+						<div class="dropdown__content" >
+							<ul class="dropdown__sub">
+								<li class="dropdown__li" >
+									<a href="#Cpu" class="dropdown__anchor" category="Cpu">Project 1</a>
+								</li>
+								<li class="dropdown__li" >
+									<a href="#monitores" class="dropdown__anchor" category="monitores">Project 2</a>
+								</li>
+								<li class="dropdown__li" >
+									<a href="#laptops" class="dropdown__anchor" category="laptops">Project 3</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="dropdown__list">
+						<a href="#" class="dropdown__link">
+							<img src="./assets/email.svg" class="dropdown__icon">
+							<span class="dropdown__span">Contacto</span>
+							<img src="./assets/down.svg" class="dropdown__arrow">
+							<input type="checkbox" class="dropdown__check">
+						</a>
+						<div class="dropdown__content">
+							<ul class="dropdown__sub">
+								<li class="dropdown__li">
+									<a href="#Impresoras" class="dropdown__anchor" category="Impresoras">Contact 1</a>
+								</li>
+								<li class="dropdown__li">
+									<a href="#Camaras" class="dropdown__anchor" category="Camaras">Contact 2</a>
+								</li> 
+							</ul>
+						</div>
+					</li>
+					<li class="dropdown__list">
+						<a href="#" class="dropdown__link">
+							<img src="./assets/help.svg" class="dropdown__icon">
+							<span class="dropdown__span">Ayuda</span>
+						</a>
+					</li>
+				</ul>
+        	</div>
+    	</nav>
+    </header>
+    <div class="wrap">
 		<div class="store-wrapper">			
 			<section class="products-list">
 				<!-- CPU y componentes -->
@@ -46,41 +90,6 @@
 					<img src="https://systemliquidation.com/cdn/shop/products/Untitleddesign_9_39c3f586-1ac7-4c18-8f90-42f29134fb67.png?v=1745517444" alt="" >
 					<P>CPU Dell Optiplex, Procesador I3 6th. 8GB RAM, 240GB almacenamiento.</P>
 					<a href="https://wa.me/50588024335?text=Hola, me interesa el CPU Dell Optiplex, Procesador I3 6th. 8GB RAM, 240GB almacenamiento">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Cpu">
-					<img src="https://sicsa.com.ni/wp-content/uploads/2025/04/4025_2570-300x300.jpg" alt="" >
-					<P>Procesador Intel I3-14100</P>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel I3-14100">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Cpu">
-					<img src="https://sicsa.com.ni/wp-content/uploads/2025/04/3916_2523.png" alt="" >
-					<P>Procesador Intel I5-14400</P>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel I5-14400">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Cpu">
-					<img src="https://sicsa.com.ni/wp-content/uploads/2025/04/4026_2571-300x300.jpg" alt="" >
-					<P>Procesador Intel I7-14700K</P>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel I7-14700K">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Cpu">
-					<img src="https://ddtech.mx/assets/uploads/926932fccfa28f0d0e5be9465755014a.png" alt="" >
-					<P>Procesador Intel I9-14900K</P>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel I9-14900K">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Cpu">
-					<img src="https://www.pbtech.com/pacific/imgprod/C/P/CPUIT155225__3.jpg" alt="" >
-					<P>Procesador Intel® Core™ Ultra 5 225</P>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel® Core™ Ultra 5 225">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Cpu">
-					<img src="https://trescom.com.gt/wp-content/uploads/BX80768265.jpg" alt="" >
-					<P>Procesador Intel® Core™ Ultra 7 265</P>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel® Core™ Ultra 7 265">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Cpu">
-					<img src="https://grupodecme.com/cdn/shop/files/29c0e32f-5cdf-4bd7-8558-6d1edb782953_700x700.jpg?v=1731312640" alt="" >
-					<P>Procesador Intel® Core™ Ultra 9 285K</P>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel® Core™ Ultra 9 285K">COTIZAR</a>
 				</div>
 				<div class="product-item" category="Cpu">
 					<img src="https://static.gigabyte.com/StaticFile/Image/Global/6b58ca69ca8ede4cc42e6772256b9c48/Product/41736/webp/400" alt="" >
@@ -171,7 +180,42 @@
 					<img src="https://elnstore.com/cdn/shop/files/bH610MHC_2_BOX_BtAr.png?v=1749310691" alt="" >
 					<P>Placa madre Biostar H610m DDR4.</P>
 					<a href="https://wa.me/50588024335?text=Hola, me interesa la Placa madre Biostar H610m DDR4">COTIZAR</a>
-				</div>				
+				</div>
+				<div class="product-item" category="Cpu">
+					<img src="https://sicsa.com.ni/wp-content/uploads/2025/04/4025_2570-300x300.jpg" alt="" >
+					<P>Procesador Intel I3-14100</P>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel I3-14100">COTIZAR</a>
+				</div>
+				<div class="product-item" category="Cpu">
+					<img src="https://sicsa.com.ni/wp-content/uploads/2025/04/3916_2523.png" alt="" >
+					<P>Procesador Intel I5-14400</P>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel I5-14400">COTIZAR</a>
+				</div>
+				<div class="product-item" category="Cpu">
+					<img src="https://sicsa.com.ni/wp-content/uploads/2025/04/4026_2571-300x300.jpg" alt="" >
+					<P>Procesador Intel I7-14700K</P>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel I7-14700K">COTIZAR</a>
+				</div>
+				<div class="product-item" category="Cpu">
+					<img src="https://ddtech.mx/assets/uploads/926932fccfa28f0d0e5be9465755014a.png" alt="" >
+					<P>Procesador Intel I9-14900K</P>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel I9-14900K">COTIZAR</a>
+				</div>
+				<div class="product-item" category="Cpu">
+					<img src="https://www.pbtech.com/pacific/imgprod/C/P/CPUIT155225__3.jpg" alt="" >
+					<P>Procesador Intel® Core™ Ultra 5 225</P>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel® Core™ Ultra 5 225">COTIZAR</a>
+				</div>
+				<div class="product-item" category="Cpu">
+					<img src="https://trescom.com.gt/wp-content/uploads/BX80768265.jpg" alt="" >
+					<P>Procesador Intel® Core™ Ultra 7 265</P>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel® Core™ Ultra 7 265">COTIZAR</a>
+				</div>
+				<div class="product-item" category="Cpu">
+					<img src="https://grupodecme.com/cdn/shop/files/29c0e32f-5cdf-4bd7-8558-6d1edb782953_700x700.jpg?v=1731312640" alt="" >
+					<P>Procesador Intel® Core™ Ultra 9 285K</P>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Procesador Intel® Core™ Ultra 9 285K">COTIZAR</a>
+				</div>
 				<div class="product-item" category="Cpu">
 					<img src="https://sicsa.com.ni/wp-content/uploads/2025/04/1476_620.jpg" alt="" >
 					<P>RAM Kingston DDR4 DIMM, 3200MT/s 4GB</P>
@@ -529,7 +573,7 @@
 					<a href="https://wa.me/50588024335?text=Hola, me interesa la Tinta Canon GI-190 Color Magenta">COTIZAR</a>
 				</div>
 				<div class="product-item" category="Impresoras">
-					<img src="https://coolboxpe.vtexassets.com/arquivos/ids/206548-800-800?v=637823561921700000&width=800&height=800&aspect=true" alt="" >
+					<img src="https://supricom.com/wp-content/uploads/2024/04/0670C001AA.png" alt="" >
 					<p>Tinta Canon GI-190 Color Amarillo</p>
 					<a href="https://wa.me/50588024335?text=Hola, me interesa la Tinta Canon GI-190 Color Amarillo">COTIZAR</a>
 				</div>
@@ -594,7 +638,7 @@
 					<a href="https://wa.me/50588024335?text=Hola, me interesa la Impresora Canon MAXIFY GX7110">COTIZAR</a>
 				</div>
 				<div class="product-item" category="Impresoras">
-					<img src="https://www.officedepot.com.gt/medias/38583-2.jpg-1200ftw?context=bWFzdGVyfHJvb3R8MjQ4NDYyfGltYWdlL2pwZWd8YUdJMkwyZ3dOaTh4TURFek5UTXlOakUyTWprM05DOHpPRFU0TXkweUxtcHdaMTh4TWpBd1puUjN8NzQwZGQyOTM1ZGU0ZjRkN2I2OTRkNzcxYTU3MjFjNjI0NDhlNjMyMmE1NTg1ZWM5ZTRjOTFkNzBiN2E0NTc3Yw" alt="" >
+					<img src="https://www.supricom.com.pa/wp-content/uploads/2022/10/GI-16BK.1.jpg" alt="" >
 					<p>Tinta Canon GI-16 Color Negro</p>
 					<a href="https://wa.me/50588024335?text=Hola, me interesa la Tinta Canon GI-16 Color Negro">COTIZAR</a>
 				</div>
@@ -720,31 +764,6 @@
 					<p>DVR DS-7108HGHI-M1 8-ch 720p Mini 1U H.265</p>
 					<a href="https://wa.me/50588024335?text=Hola, me interesa el DVR DS-7108HGHI-M1 8-ch 720p Mini 1U H.265">COTIZAR</a>
 				</div>
-				<div class="product-item" category="Camaras">
-					<img src="https://www.manual.ec/thumbs/products/l/1869713-tp-link-ex141.webp" alt="" >
-					<p>tp-link Router Gigabit AX1500 Wi-Fi 6 Ethernet EX141</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el tp-link Router Gigabit AX1500 Wi-Fi 6 Ethernet EX141">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Camaras">
-					<img src="https://pccentro.net.ve/img/s/4/5/2/8/3/45283-large_default.webp" alt="" >
-					<p>tp-link Router Wi-Fi de doble banda AC1200 Archer C50</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el tp-link Router Wi-Fi de doble banda AC1200 Archer C50">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Camaras">
-					<img src="https://thumb.pccomponentes.com/w-530-530/articles/12/124966/1.jpg" alt="" >
-					<p>tp-link Repetidor Wi-Fi RE305 AC1200</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el tp-link Repetidor Wi-Fi RE305 AC1200">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Camaras">
-					<img src="https://www.manuales.com.co/thumbs/products/l/1366654-tp-link-re315.webp" alt="" >
-					<p>tp-link Repetidor Wi-Fi RE315 AC1200</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el tp-link Repetidor Wi-Fi RE315 AC1200">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Camaras">
-					<img src="https://www.globatecrd.com/wp-content/uploads/2021/01/Repetidor-TP-LINK-TL-WA855RE-N300.jpg" alt="" >
-					<p>tp-link Repetidor Wi-Fi TL-WA855RE 300Mbps</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el tp-link Repetidor Wi-Fi TL-WA855RE 300Mbps">COTIZAR</a>
-				</div>
 				<!-- Fin Camaras -->
 				<!-- Inicio Protecotres -->
 				<div class="product-item" category="Protectores">
@@ -848,51 +867,6 @@
 					<img src="https://www.geniusnet.com/upload/es/common/PIC_2025010618_90ae61349.webp" alt="" >
 					<p>Ratón Genius alambrico DX-110 Color Rojo</p>
 					<a href="https://wa.me/50588024335?text=Hola, me interesa el Ratón Genius alambrico DX-110 Color Rojo">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Accesorios">
-					<img src="https://www.geniusnet.com/upload/es/common/PIC_2025010638_25fbe8963.webp" alt="" >
-					<p>Ratón Genius Micro Traveler 9000R Color Rosado</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Ratón Genius Micro Traveler 9000R color Rosado">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Accesorios">
-					<img src="https://www.geniusnet.com/upload/es/common/PIC_2025010603_363409559.webp" alt="" >
-					<p>Ratón Genius Micro Traveler 9000R Color Azul</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Ratón Genius Micro Traveler 9000R color Azul">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Accesorios">
-					<img src="https://www.geniusnet.com/upload/es/common/PIC_2025010629_903448155.webp" alt="" >
-					<p>Ratón Genius NX-7000 Color Rojo</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Ratón Genius NX-7000 Color Rojo">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Accesorios">
-					<img src="https://www.geniusnet.com/upload/es/common/PIC_2025010644_b93d49681.webp" alt="" >
-					<p>Ratón Genius NX-7000 Color Celeste</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Ratón Genius NX-7000 Color Celeste">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Accesorios">
-					<img src="https://www.geniusnet.com/upload/es/common/PIC_2025010657_998d32502.webp" alt="" >
-					<p>Ratón Genius NX-7000 Color Negro</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Ratón Genius NX-7000 Color Negro">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Accesorios">
-					<img src="https://www.geniusnet.com/upload/es/common/PIC_2025010641_71b835496.webp" alt="" >
-					<p>Ratón Genius NX-7000 Color Blanco</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Ratón Genius NX-7000 Color Blanco">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Accesorios">
-					<img src="https://www.geniusnet.com/upload/es/common/PIC_2025010611_26fa63088.webp" alt="" >
-					<p>Ratón Genius Ergo 8200S Color Negro</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Ratón Genius Ergo 8200S Color Negro">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Accesorios">
-					<img src="https://www.geniusnet.com/upload/es/common/PIC_2025010633_80683385.webp" alt="" >
-					<p>Ratón Genius Ergo 8250S Color Negro</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Ratón Genius Ergo 8250S Color Negro">COTIZAR</a>
-				</div>
-				<div class="product-item" category="Accesorios">
-					<img src="https://www.geniusnet.com/upload/es/common/PIC_2025010659_dfdb91868.webp" alt="" >
-					<p>Ratón Genius Ergo 8300S Color Negro</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el Ratón Genius Ergo 8300S Color Negro">COTIZAR</a>
 				</div>
 				<div class="product-item" category="Accesorios">
 					<img src="https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/combos/mk235/gallery/mk235-gallery-01-new.png" alt="" >
