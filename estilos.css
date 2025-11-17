@@ -6,7 +6,7 @@
 }
 
 .nav{
-    background-color: #cc0000;	
+    background-color: #0c0268;	
     --img1: scale(1);
     --img2: scale(0);
 }
@@ -50,13 +50,14 @@
 }
 
 .nav__icon{
+    color: #fff;
     width: 40px;
     display: block;
 }
 
 .dropdown{
     position: absolute;
-    background-color: #cc0000;
+    background-color: #0c0268;
     width: 75%;
     max-width: 300px;
     right: 0;
@@ -81,7 +82,7 @@
 }
 
 .dropdown__link{
-    color: rgb(184, 187, 191);
+    color: #fff;
     padding: 1em .7em;
     text-decoration: none;
     
@@ -97,7 +98,7 @@
 .dropdown__list:has( :checked ){
     --rows: 1fr;
     --rotate: rotate(180deg);
-    --bg: #0c0268;
+    --bg: #cc0000;
 }
 
 .dropdown__check{
@@ -122,7 +123,6 @@
 
 .dropdown__sub{
     overflow: hidden;
-
 }
 
 .dropdown__li{
@@ -134,7 +134,7 @@
 .dropdown__anchor{
     padding: 1em 0;
     display: block;
-    color: #B6BABE;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -216,7 +216,7 @@
 	display: block;
 	width: 100%;
 	padding: 8px 0;
-	background: #cc0000;
+	background: #0c0268;
 
 	color: #fff;
 	text-align: center;
@@ -289,3 +289,15 @@
 		margin-left: 0px;
 	}
 }
+
+/*Nieve*/
+#snow {
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ pointer-events: none;
+ z-index: 1000;
+}
+/*Fin Nieve*/
