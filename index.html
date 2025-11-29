@@ -115,6 +115,23 @@
 					</li>
 					<li class="dropdown__list">
 						<a href="#" class="dropdown__link">
+							<span class="dropdown__span">Internet</span>
+							<img src="./assets/down.svg" class="dropdown__arrow">
+							<input type="checkbox" class="dropdown__check">
+						</a>
+						<div class="dropdown__content">
+							<ul class="dropdown__sub">
+								<li class="dropdown__li">
+									<a href="#internet" class="dropdown__anchor" category="internet">Conexion a Internet</a>
+								</li>
+								<li class="dropdown__li">
+									<a href="#cryc" class="dropdown__anchor" category="cryc">Cable de Red y Conectores</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="dropdown__list">
+						<a href="#" class="dropdown__link">
 							<span class="dropdown__span">Vigilancia</span>
 							<img src="./assets/down.svg" class="dropdown__arrow">
 							<input type="checkbox" class="dropdown__check">
@@ -852,6 +869,48 @@
 					<a href="https://wa.me/50588024335?text=Hola, me interesa la Tinta HP GT53 Color Magenta">COTIZAR</a>
 				</div>
 				<!-- Fin Impresoras -->
+				<!-- Inicio internet -->
+				<div class="product-item" category="internet">
+					<img src="data:image/jpeg;base64,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" alt="" >
+					<p>Router tp-link Archer C24, AC750 Dual Band</p>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Router tp-link Archer C24, AC750 Dual Band">COTIZAR</a>
+				</div>
+				<div class="product-item" category="internet">
+					<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEhUSEBIWFRIWFxYSFRAVEhUQDxUVFxYWFxYVFRUYHCggGBolGxUVITEhJSkrLi4uFx8zODUtNygtLisBCgoKDg0NDg0NFS0ZFRk3ODgrKzctLSstNysrNys3Mzg3LSsrNystODQ1Kys3KzA3KysrKystKysrODc3Li0rK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABwgEBgEDBQL/xABMEAABAwIACAcMBQoGAwAAAAABAAIDBBEFBgcSITFRkRMiQWFxs8EjJCVSYnJzgZKhscIIMkKy0RQzNGNkdKKjtNIVNYKDw+EXk5T/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABcRAQADAAAAAAAAAAAAAAAAAAARUXH/2gAMAwEAAhEDEQA/AJxREQEREBERAREQEXzI8NBc4gAAkkmwAGskrWf/ACHgrkqgfNjld8GINoRYmC8IxVMTZoHZ8T75r7Ft7EtOhwB1grLQEREBERAREQEREBERAREQEREBERAREQEREBEXk42X/IaqxIP5PMQQbHRG7UQg6pcb8GtJDq2nuNBHDsJv6is7BWFqepaX00zJWtOa5zHBwDrA2NtRsQfWq11UYa97WgABzgAABoDiAFJ2QM9wqx+0X/ltHyoJTREQeVjWL0VUP2efq3KvdW6z3jkD3aOQcYqxGMgvSVI/USj+W5Vzrnd1k89/3igm/JMfBVN0SddItuWnZIj4Jpv90fz5FuKAiIgIiICIiAiIgIiICItRx1x2/wAPexv5O6XObnFwkEbW3Lg0HQdea7cg25FG+BMqfD1EUDqTMEj2x54qBIQXaAc0MFxe3KpIQEREBERAREQF5+MTM6kqG7YZRvjcvQWPXszopBtY4b2lBWrCP52T0j/vFSLkDfxa1uyVh3h4+VRzhD8687STv09q3/IG/umEG89O7eZ/wQS+iIgwsNtvTzDbFIP4Cq1YSd3WTz3/AHirM4TF4ZR+rf8AdKrHhU92k893xQTjkePgqDzpuukW6LSMjJ8FQ+fN1z1u6AiIgIiICIiAuqWpjb9Z7W9LgPiu1V9ygxtbWPeLl0kk5dcm3EldGLWtbQ1BPUFdC85rJWOdrzWva51ttgVkKB8lxJwnDY6A2UkX1jg3Cx26SFPCAohyzP7q0eRD8ar8QpeUNZYZLz22ZjdzM7/kQaviG2+EqQbZb+yx7/lVjVXnJrEXYVpPJdK4/wDzTD4kKwyAiIgIiICIiAuHC4I9S5RBWGu+v6mHexpW8ZBXd8148mnO4y/3LTMNMzZnN2Bg3RsW3ZCXd+1o2xxHcR/cgmtERB01gvG8eS74FVewue7SedffZWklHFPQfgqsYYPdn/6fe1pQThkVPgqL0k/WvW9LQciJ8FM9LP1rlvyAiIgIiICIiAq8Y+vvU/66v+uqR8qsOq6Y8nvr/wBzvarKo9qD18kbb4SZzQzO98Y+ZTooPyOsvhInkFLN75aYfipwQFB+VmS9U8bJP+Cm/EqcFBGVN16x/nuO5kTPkQfGSNl8Js8mKV3ua35lPSgzIxFfCTncjaWXeZYP+1OaAiIgIiICIiAiIgrbjY21XMPKtu4vYvfyHyWwlUN8amzvZfCPmXi48NtWz+kk62Qdi9PIq62F389JJ1sH4IJ6REQcFVUw0e7O6I/fGwq1iqlh/RO4eTF1MaCbchx8Ft9NP1hUgKPMhR8Gf78/3gpDQEREBERAREQFXHHQ3qm+jv7UsrvmVjlWvGl96hh/UwnezO+ZBt2RZnfsrtlO4e1JH/apmUP5EW98VJ2RRje939qmBBwVAGUeS9W7zpvdNI35VYAquuPr71b/ADpTvqJj2oNjyHMvV1DvFhaPaff5FM6h/IOzu1a7YymG91R+AUwICIiAiIgIiICIiCu+UVtq+Xped80qyMjjrYY6aWQfxtPyr5yqNthCTo+LnO+ZdWSN1sMReVDI3c1x7EFh0REBVTxo0VUg5oupjVrFVTHDRWTD0fUxoJlyDHwY795m+VSMo1yBHwdJzVUv3Yz2qSkBERAREQEREAqseHHXmZ6Cl/p4j2qzFQ6zHHY0ncFWXDgtUEbI6du6niCCQ8hre61h2MpxvdP+CltRXkNZ+mO28A3dwx+ZSog4VbscpL1LjtAPtXd8ysiVWPGGS8xPkRdUxBJOQiPudW/a+JvstcfnUqKM8hDO9Kl22ptuhhPaVJiAiIgIiICIiAiIggPK+22EHnmb1cZ7V5mSyS2GaXyhM3+TKexexlpbatB2g+5kQWvZN32wzQ+dL1Lx2oLMIiICqrjwLV048pvVsCtUqr4/f5hUeePugdiCW/o/HwdNzVcnVQntUmqLvo9HwfP+9v6mBSigIiICIiAiIgxMLPzYJTsjedzSq24x/pko2ZjfZjYOxWJxpfm0VU7ZTzHdG4quuMp79qOaRw3aOxBKOQ1vcak/rWDcy/zKTVG+Q1vetQf2i26GE9qkhB1Vb81jnbGuO4EqsWH/AM+8bM1u5jR2KyeH5M2mndshlO5jiq1YwO75m9I8bjbsQTJkSitg9x8aeR25rGfKpAWkZGW+CojtkqDunkb8q3dAREQEREBERAREQQdlzbaqhO1jj1Y7FqOT91sLUJ/WOG9tu1brl5b3eA+Rbe5/4LQsS5LYSoT+0Rt9p7R2oLToiICqvlF0YRqfSO9xI7FahVYyk/5lU+kf99yCVPo8nvCo/endTApTUV/R4PeNR+9HqYVKiAi4zhe19Ou3LbauUBERAREQePjj+gVfPTzDfG4dqrph916yp9PL1jgrF43/AKFUDbGW+1o7VW7Czr1VQds8x/mOQTRkSZahkO2oed0cI7FIK0TIw22Dgds0p94HYt7QeVjSe86jnikb7TSO1Vowu+88x2yyffKsnjc61JJz5jfakY3tVY6t95Hna5x3uKCxWSuLNwVTDaJHe1LI7tW1rXcnbbYMouenid7TQ7tWxICIiAiIgIiICIiCG8vjeNAeYDrFGOLb7V9Cf2um65ilL6QDeLTHa53uB/uUTYFdarpDsqYTueD2ILcoiICqtlRdbCdR57z/ADHqzGGsOU1IzhKmVsbeS+l7rcjGDjOPMAVWTHOojq62WoYHZjnOLQ4AEjPc4Ej/AFakG/ZE8ZqKjoak1VQyPu+eGF15XDgoxdkY4ztIOoFfGNmWWeS8eDo+Bbq/KJQHzHnZHpazpOd0BRgIgNACZiK4qK2eSXh5JpHTa+GMjjL6n3uOgLYcE5Q8L09gyre9o+xMBUA9Ln8fc4LXixcZiCVME5cJxYVdIx+18LzGfVG/OB9oLc8E5W8EzWD5XwOP2Z4y0et7M5g9ZVd8xMxEW4wdhOnqG59PNHK3xo5GyN3tJWWqeRXY7PYS141PaSx46HDSFs+CsoOFqewZVve0fYmAqAelz+PucgsJjce9JOcxt9qVg7VWesfeaU7ZZDveVv8AS5VKirDKSop486SWAcNG9zALTMd+bdnX+r43Ko5c673na5x3koLA5Gx4LiO2Sf3TyN7Fuy0rI89v+FQNDmlwdOXNBBcM6olcLjk0ELdUGv49OtRv9JT/ANRET7gVWJ79Z9asplHlzaM872e4l3yqskrrNJ2A/BBa7FKLMoaRni08Dd0TQvWWPg6PNijb4rGN3NAWQgIiICIiAiIgIiIIk+kE3uVKfKl+Ef8A2oawe+08J2Sxu3OU2Zfo701ORr4Vw3tB7FClPT8YX5DfZpCC2WFMKwUzc+eRrG8lzxjzNaNLj0BRvjJlNlddlEzgxq4d4DpOlrNTek36AtGNU+XjSvc91gM973PfYbXOJK+HNQYGEZZJXmSV7nyHW97i53Rc8nMvMkj0r2ZWLBkYgwuDXBjWbwa4MSKwmMu7NH1rXtq0bSToA0jSuz8ifYuABDdZa9j7X5Tmk6OdZDY7XI0E2BI0XA1Ar7e95FnOcRsLiQg87g1xwaynxO5Leu6+WtN7Ftue4IQY3Brjg1mcGuODQd2LbO+6fmlYdxv2LzIncq9zADLVMR2OJ3NcexeBAdCI7IrtdnsJa8antJa8dDhpC2bBWUDC1PYMq3vaPsTATg9Lncfc5eBEzijoWPVVDWHNuM7ZyDp/D4IJBwllHqK6EU88MbSM+Uyxuc0HNik0cG6/K4ac7kUdNjz7M8azd+jtXdgd5L5HE3PAym/qA7V2YEbnVNO3xp4W75GjtQW3AXKIgIiICIiAiIgIiIIt+kLATg+F/iVLL7bOjlHxsoNhnc29jqAsDpGochVgcu7L4KefFmhP8du1V5Z9ro7EHt0mGSCGube41g2O4694XpQYUheL54bycezPedHvWrMOlvQvh31B5w7UG5yhYjmrX46uRjnZjyNF7Xu36vinQfWFlxYadYcIwOJ5Wngz69BG4BB6zWL64NdFPhGBxtwgafFk7n/EeJ/FfmXpcEdBtoOo/ZPQeVBhGJccEs/glxwKDA4JccGs8wrjgUHn8GhiWcYVwYUV1YNbaVp2CQ7opCtYgOgLa9DXWJGfwcrgz7WbwMnGtyDSNdr8l7G2pRHQiPuprzmhsdxoAL/tE205vijn19GpY1AQ05xA0ari4QhGSZvJzoPSpZc4zO0ACFzbAWGlzLm/KsnE6LOwhRt/aqc+oSsJ9wWPmWje5nFaQbgtu4i7dGvQb2PqXr5MKZ0mE6Usa5zWS5z3NaXNbmtcbuI0DSBrQWhREQEREBERAREQEREGs5QI2S0U0L4w/PYQARfNdbivHO02I6FWaqwe+MlrgRrHGFhvVt6qla8WIWr4XxMhlvdo3IK0aQW3Gq+nkXy48U+cPipewzkyGkx3b0aty0jCuJdTHfiZw2jQUGsk8Y+b2LrvxW9Kyp6N7DxgQbWs4W9+pYrmkAAjUfUg+3sXZRumZd0LnttpdmEhtvKA0EdO1djW3AK7IpC0OALhnDNNjYEa7OHKLgJgyqbGaZuiVjZBtHcZN7Rm/wAK9elxhpX/AFnOjOyRvF9T2XFud2atee8OEceYLN+0AA91zpBPKRbR0r5NNC90hY7MYAXMD7lztjSQPrW6BoUmxvcTA5ucwhzfGa4PZ7TbhDCo9bTyxtbOwuYCS0SMcWOuLXF2m/KF6FLjXVM+vmyjy22fbl47LEnnddUbjwOs8gBJJNgANZJOgAbStewjjC0O4OmGe7VwubnN/wBtp+t5x0bAdDl5eG8NSzktPEjB0RNOgkcrz9s+4cgCwqJ+ac4a0Ho4Mzs+Vzs7O4GYkuuXElhuSTrOlecw6F6VHKXmZ7iSRDKwX+rbRew2kleUTZpPMUH1DC55DWgknkCkHFTJ2+WzpR6ti23ErEBsYDni7uUlSdRULYxYBFRjNk3LAMzSNhFwtpxbwVPFYOPFHJqC3CyWQkaNC5REQREQEREBERAREQEREHw6MHWFh1OCo362hZ6INMwriVDJfijctFwzkyAuY7jo1KbV8OiB1hBWDCWJ1TCTZtxtGg/gV4c0UjDZ7d4zTv1K11TgqN+toWt4WxJhkB4o3IK5Z45dHTo96Zuiw1dAO3b0nTzqU8M5MbXMdx0alpOEsTqmEmzSRtGg/gUGvvFxbZu5dPwXS+NZU0UjDZ7d4zTv1Lrzxy6OnVv1IOmX67vOd8SuWzhvJflAvZDE50jgwXJc61tPKdKkHEzJ66Qh8w9SDUYWyGOV7bMZmG7S0EuBLQQDyaxp5lhYOgMsjI2tLnOc1ua0FzjdwGodKsFJk8hMZbmg3FiCLg8xHqC6MFYpTwP7nZrdjQGj3IqRIomjUuxY9ExwaA7WshEEREBERAREQEREBERAREQEREBERAREQEREHw+IHWFg1OCY362heiiDScLYkQyX4o3LSsJZLgTxLjo1Ka18lg2IItxWycxwnOcLnaVI9DQNjAACzA0LlASyIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiD//Z" alt="" >
+					<p>Router tp-link Archer C50, AC1200 Dual Band</p>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Router tp-link Archer C50, AC1200 Dual Band">COTIZAR</a>
+				</div>
+				<div class="product-item" category="internet">
+					<img src="https://thumb.pccomponentes.com/w-530-530/articles/12/124966/1.jpg" alt="" >
+					<p>Repetidor wifi tp-link 300Mbps modelo TL-WA855RE</p>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Repetidor wifi tp-link 300Mbps modelo TL-WA855RE">COTIZAR</a>
+				</div>
+				<div class="product-item" category="internet">
+					<img src="https://thumb.pccomponentes.com/w-530-530/articles/12/124966/1.jpg" alt="" >
+					<p>Repetidor wifi tp-link AC1200 modelo RE305</p>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Repetidor wifi tp-link AC1200 modelo RE305">COTIZAR</a>
+				</div>
+				<div class="product-item" category="internet">
+					<img src="https://www.manualpdf.es/thumbs/products/l/1366654-tp-link-re315.webp" alt="" >
+					<p>Repetidor wifi tp-link AC1200 modelo RE315</p>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Repetidor wifi tp-link AC1200 modelo RE315">COTIZAR</a>
+				</div>
+				<div class="product-item" category="internet">
+					<img src="https://jaltechsas.com/wp-content/uploads/2022/11/SWICHE-LS1005-TP-LINK_40152_LS1005_1.png" alt="" >
+					<p>Switch tp-link de Escritorio de 5 puertos 10/100Mbps modelo LS1005</p>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Switch tp-link de Escritorio de 5 puertos 10/100Mbps modelo LS1005">COTIZAR</a>
+				</div>
+				<div class="product-item" category="internet">
+					<img src="https://www.liberotech.it/media/catalog/product/cache/a58970600f9f6823427dcb3961aee4c7/_/m/_m_q_mq2.webp" alt="" >
+					<p>Switch tp-link de Escritorio de 8 puertos 10/100Mbps modelo TL-SF1008D</p>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Switch tp-link de Escritorio de 5 puertos 10/100Mbps modelo LS1005">COTIZAR</a>
+				</div>
+				<div class="product-item" category="internet">
+					<img src="https://www.mfcomm.co.uk/wp-content/uploads/2022/04/TP-Link-TL-SX1008.jpeg" alt="" >
+					<p>Switch tp-link montado en Rack de 8 puertos 10G modelo TL-SX1008</p>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el Switch tp-link montado en Rack de 8 puertos 10G modelo TL-SX1008">COTIZAR</a>
+				</div>
+				<!-- Fin Internet -->
 				<!-- Inicio Camaras -->
 				<div class="product-item" category="ezviz">
 					<img src="https://mfs.ezvizlife.com/000861f57a909bb4fe5af77caec952de_middle.png" alt="" >
@@ -887,6 +946,11 @@
 					<img src="https://mfs.ezvizlife.com/442185d436bde147b3f064469c7f068f_middle.jpg" alt="" >
 					<p>Video portero Inteligente HP7</p>
 					<a href="https://wa.me/50588024335?text=Hola, me interesa el Video portero Inteligente HP7">COTIZAR</a>
+				</div>
+				<div class="product-item" category="tapo">
+					<img src="https://tienda.azurcr.com/37-large_default/camara-de-vigilancia-tp-link-exterior-wi-fi-tapo-c310.jpg" alt="" >
+					<p>Camara Tapo wifi modelo C310</p>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa la Camara Tapo wifi modelo C310">COTIZAR</a>
 				</div>
 				<div class="product-item" category="hikvision">
 					<img src="https://www.communica.co.za/cdn/shop/products/hkv-ds-7116hghi-m1-966391.webp?v=1699368124" alt="" >
@@ -945,15 +1009,15 @@
 					<p>Forza UPS Inteligente 1000VA/600W Torre Compacta, 10 salidas, LCD, Puertos USB de Carga, Software-120V</p>
 					<a href="https://wa.me/50588024335?text=Hola, me interesa el UPS Inteligente 1000VA/600W Torre Compacta, 10 salidas, LCD, Puertos USB de Carga, Software-120V">COTIZAR</a>
 				</div>
+				<div class="product-item" category="forza">
+					<img src="https://forza-ups-frontend.s3.amazonaws.com/media/img/ST-1501_Land.jpg" alt="" >
+					<p>Forza UPS Inteligente 1500VA/600W Torre Compacta, 10 salidas, LCD, Puertos USB de Carga, Software-120V</p>
+					<a href="https://wa.me/50588024335?text=Hola, me interesa el UPS Inteligente 1000VA/600W Torre Compacta, 10 salidas, LCD, Puertos USB de Carga, Software-120V">COTIZAR</a>
+				</div>
 				<div class="product-item" category="cdp">
 					<img src="https://cdpenergy.com/Content_Elements/Carousel_Images/PRID-36-Ref.jpg" alt="" >
 					<p>UPS interactivo de 1500VA de onda sinusoidal pura con baterías internas, regulador de voltaje Supresor de sobre tensión con 8 toma corrientes NEMA 5-15. Ideal para PC para juegos de alta gama</p>
 					<a href="https://wa.me/50588024335?text=Hola, me interesa el UPS interactivo de 1500VA de onda sinusoidal pura con baterías internas, regulador de voltaje Supresor de sobre tensión con 8 toma corrientes NEMA 5-15. Ideal para PC para juegos de alta gama">COTIZAR</a>
-				</div>
-				<div class="product-item" category="tripplite">
-					<img src="https://assets.tripplite.com/medium-image/smart1500lcdt-front-m.jpg" alt="" >
-					<p>UPS SmartPro de onda sinusoidal interactivo de 1500 VA 900 W 120 V - 10 Tomacorrientes, LCD, USB, Torre</p>
-					<a href="https://wa.me/50588024335?text=Hola, me interesa el UPS SmartPro de onda sinusoidal interactivo de 1500 VA 900 W 120 V - 10 Tomacorrientes, LCD, USB, Torre">COTIZAR</a>
 				</div>
 				<div class="product-item" category="tripplite">
 					<img src="https://assets.tripplite.com/medium-image/avr700u-front-m.jpg" alt="" >
